@@ -70,7 +70,7 @@ class Phonebook:
                 count += 1
                 if count == numeric:
                     numeric += fixed_numeric
-                    input()
+                    input("Next ->")
             if count == lenght:
                 break
 

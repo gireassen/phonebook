@@ -182,5 +182,13 @@
         "organization": "EM",
         "work phone": "1-4-88",
         "personal phone": "8-8-41"
+    },
+    "Aleks": {
+        "surname": "Alekseev",
+        "name": "Aleksey",
+        "patronymic": "Alekseevisch",
+        "organization": "GazMyas",
+        "work phone": "",
+        "personal phone": ""
     }
 }

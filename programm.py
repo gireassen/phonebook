@@ -30,8 +30,8 @@ try:
                 data['patronymic'] = input('Введите отчество: ').strip()
 
             data['organization'] = input('Введите название организации: ').strip()
-            data['work phone'] = input('Введите рабочий телефон: ').strip()
-            data['personal phone'] = input('Введите личный телефон: ').strip()
+            data['work_phone'] = input('Введите рабочий телефон: ').strip()
+            data['personal_phone'] = input('Введите личный телефон: ').strip()
 
             pb.add_contact(**data)
             print(f"\n\tБыл добавлен контакт: {data['name']} {data['surname']}")
