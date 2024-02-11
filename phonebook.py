@@ -3,14 +3,20 @@ import json
 class Phonebook:
     def __init__(self, file_path: str) -> None:
         '''
-        конструктор
-        принимаем аргумент file_path, который представляет путь к файлу телефонного справочника
+        Конструктор
+        Принимает аргумент file_path, который представляет путь к файлу телефонного справочника.
+
+        Параметры:
+        - file_path: str - путь к json файлу.
         '''
         self.file_path = file_path
 
     def read_file(self) -> dict:
         '''
-        метод для чтения данных из файла
+        Метод для чтения данных из файла.
+
+        Возвращает:
+        dict: Содержимое json файла.
         '''
         try:
             with open(self.file_path, 'r', encoding='utf-8') as file:
@@ -21,7 +27,10 @@ class Phonebook:
 
     def write_file(self, contacts: dict) -> None:
         '''
-        метод для записи данных в файл
+        Метод для записи данных в файл.
+
+        Параметры:
+        - contacts: dict - данные для записи контакта в справочник;
         '''
         with open(self.file_path, 'w', encoding='utf-8') as file:
             json.dump(contacts, file, indent=4, ensure_ascii=False)
@@ -33,6 +42,11 @@ class Phonebook:
         например list_contacts(3) будет выводит по три контакта
         при нажатии клавиши Enter выведется следующая группа
         из 3-х контактов
+
+        Параметры:
+        - numeric: int - число контактов в группе при просмотре контактов в справочнике;
+
+        Выводит: группы контактов из телефонного справочника.
         '''
         contacts = self.read_file()
         lenght = len(contacts)
@@ -53,6 +67,10 @@ class Phonebook:
     def add_contact(self, **kwargs: dict) -> None:
         '''
         метод для добавления нового контакта в справочник
+
+        Параметры
+        - **kwargs: dict - используется для передачи неопределенного числа именованных аргументов(словаря),
+        для заполнения данных нового контакта. если какие-либо параметры не заполнены, они создадутся пустыми;
         '''
         contacts = self.read_file()
         data = {
@@ -66,10 +84,17 @@ class Phonebook:
         contacts[kwargs.get('name', '') + ' ' + kwargs.get('surname', '')] = data
         self.write_file(contacts)
 
-    def search_contact(self, **kwargs: dict) -> dict:
+    def search_contact(self, **kwargs: dict) -> dict(dict):
         '''
         метод для поиска контактов по 1 или нескольким аргументам.
         если есть одинаковые аргументы у контактов, то вернет несколько результатов
+
+        Параметры
+        - **kwargs: dict - используется для передачи неопределенного числа именованных аргументов(словаря),
+        по которым будет производится поиск;
+
+        Возвращает: 
+        - dict(dict) - словарь со словарями, где хранятся контакты которые удволетворяют запросам поиска;
         '''
         contacts = self.read_file()
         founded_contacts: dict = {}
@@ -82,6 +107,11 @@ class Phonebook:
     def edit_contact(self, contact_name: str, **kwargs: dict) -> None:
         '''
         метод для изменения контакта по его названию 
+
+        Параметры:
+        - contact_name: str - параметр для передачи названия контакта, по которому хотим произвести редактирование;
+        - **kwargs: dict -  используется для передачи неопределенного числа новых именованных аргументов(словаря),
+        по которым будет произведена корректировка(изменение);
         '''
         contacts = self.read_file()
         if contact_name not in contacts:
