@@ -1,0 +1,18 @@
+{
+    "test_contact": {
+        "surname": "Андреев",
+        "name": "Андрей",
+        "patronymic": "Иванович",
+        "organization": "NotEffectiveMobile",
+        "work phone": "8(800)555-35-35",
+        "personal phone": "8(800)666-36-36"
+    },
+    "test testov": {
+        "surname": "testov",
+        "name": "test",
+        "patronymic": "testovisch",
+        "organization": "EffectiveMobile",
+        "work phone": "8(800)555-35-35",
+        "personal phone": "8(800)666-36-36"
+    }
+}
