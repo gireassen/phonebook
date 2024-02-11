@@ -7,12 +7,132 @@
         "work phone": "8(800)555-35-35",
         "personal phone": "8(800)666-36-36"
     },
-    "test testov": {
-        "surname": "testov",
-        "name": "test",
-        "patronymic": "testovisch",
-        "organization": "EffectiveMobile",
-        "work phone": "8(800)555-35-35",
-        "personal phone": "8(800)666-36-36"
+    "Иван Иванов": {
+        "surname": "Иванов",
+        "name": "Иван",
+        "patronymic": "Петрович",
+        "organization": "123123123",
+        "work phone": "8(800)777-77-77",
+        "personal phone": "8(800)888-88-88"
+    },
+    "Имя_0 Фамилия_0": {
+        "surname": "Фамилия_0",
+        "name": "Имя_0",
+        "patronymic": "Отчество_0",
+        "organization": "Организация_0",
+        "work phone": "8(800)777-77-0",
+        "personal phone": "8(800)888-88-0"
+    },
+    "Имя_1 Фамилия_1": {
+        "surname": "Фамилия_1",
+        "name": "Имя_1",
+        "patronymic": "Отчество_1",
+        "organization": "Организация_1",
+        "work phone": "8(800)777-77-1",
+        "personal phone": "8(800)888-88-1"
+    },
+    "Имя_2 Фамилия_2": {
+        "surname": "Фамилия_2",
+        "name": "Имя_2",
+        "patronymic": "Отчество_2",
+        "organization": "Организация_2",
+        "work phone": "8(800)777-77-2",
+        "personal phone": "8(800)888-88-2"
+    },
+    "Имя_3 Фамилия_3": {
+        "surname": "Фамилия_3",
+        "name": "Имя_3",
+        "patronymic": "Отчество_3",
+        "organization": "Организация_3",
+        "work phone": "8(800)777-77-3",
+        "personal phone": "8(800)888-88-3"
+    },
+    "Имя_4 Фамилия_4": {
+        "surname": "Фамилия_4",
+        "name": "Имя_4",
+        "patronymic": "Отчество_4",
+        "organization": "Организация_4",
+        "work phone": "8(800)777-77-4",
+        "personal phone": "8(800)888-88-4"
+    },
+    "Имя_5 Фамилия_5": {
+        "surname": "Фамилия_5",
+        "name": "Имя_5",
+        "patronymic": "Отчество_5",
+        "organization": "Организация_5",
+        "work phone": "8(800)777-77-5",
+        "personal phone": "8(800)888-88-5"
+    },
+    "Имя_6 Фамилия_6": {
+        "surname": "Фамилия_6",
+        "name": "Имя_6",
+        "patronymic": "Отчество_6",
+        "organization": "Организация_6",
+        "work phone": "8(800)777-77-6",
+        "personal phone": "8(800)888-88-6"
+    },
+    "Имя_7 Фамилия_7": {
+        "surname": "Фамилия_7",
+        "name": "Имя_7",
+        "patronymic": "Отчество_7",
+        "organization": "Организация_7",
+        "work phone": "8(800)777-77-7",
+        "personal phone": "8(800)888-88-7"
+    },
+    "Имя_8 Фамилия_8": {
+        "surname": "Фамилия_8",
+        "name": "Имя_8",
+        "patronymic": "Отчество_8",
+        "organization": "Организация_8",
+        "work phone": "8(800)777-77-8",
+        "personal phone": "8(800)888-88-8"
+    },
+    "Имя_9 Фамилия_9": {
+        "surname": "Фамилия_9",
+        "name": "Имя_9",
+        "patronymic": "Отчество_9",
+        "organization": "Организация_9",
+        "work phone": "8(800)777-77-9",
+        "personal phone": "8(800)888-88-9"
+    },
+    "Имя_10 Фамилия_10": {
+        "surname": "Фамилия_10",
+        "name": "Имя_10",
+        "patronymic": "Отчество_10",
+        "organization": "Организация_10",
+        "work phone": "8(800)777-77-10",
+        "personal phone": "8(800)888-88-10"
+    },
+    "Имя_11 Фамилия_11": {
+        "surname": "Фамилия_11",
+        "name": "Имя_11",
+        "patronymic": "Отчество_11",
+        "organization": "Организация_11",
+        "work phone": "8(800)777-77-11",
+        "personal phone": "8(800)888-88-11"
+    },
+    "Имя_12 Фамилия_12": {
+        "surname": "Фамилия_12",
+        "name": "Имя_12",
+        "patronymic": "Отчество_12",
+        "organization": "Организация_12",
+        "work phone": "8(800)777-77-12",
+        "personal phone": "8(800)888-88-12"
+    },
+    "Имя_13 Фамилия_13": {
+        "surname": "Фамилия_13",
+        "name": "Имя_13",
+        "patronymic": "Отчество_13",
+        "organization": "Организация_13",
+        "work phone": "8(800)777-77-13",
+        "personal phone": "8(800)888-88-13"
+    },
+    "Имя_14 Фамилия_14": {
+        "surname": "Фамилия_14",
+        "name": "Имя_14",
+        "patronymic": "Отчество_14",
+        "organization": "Организация_14",
+        "work phone": "8(800)777-77-14",
+        "personal phone": "8(800)888-88-14"
     }
 }

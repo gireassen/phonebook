@@ -46,7 +46,6 @@ class Phonebook:
         contacts[kwargs.get('name', '') + ' ' + kwargs.get('surname', '')] = data
         self.write_file(contacts)
 
-
     def search_contact(self, **kwargs):
         contacts = self.read_file()
         founded_contacts = {}
@@ -67,11 +66,5 @@ class Phonebook:
         self.write_file(contacts)
 
 if __name__ == "__main__":
-    # file_path = 'phonebook.json'
-    # pb = Phonebook(file_path)
-    # start_index = 1
-    # pb.list_contacts(start_index)
-    # pb.add_contact(surname = 'testov', name = 'test', patronymic = 'testovisch', organization = 'EffectiveMobile', work_phone = '8(800)555-35-35', personal_phone = '8(800)666-36-36')
-    # contacts = pb.search_contact(surname="Иванов")
-    # pb.edit_contact(contact_name="test_contact_2", surname="Андре111ев", name="Ан111дрей", organization="NotEffectiveMobile")
-    pb.list_all_contacts()
+    print(__name__)
+

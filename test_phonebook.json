@@ -1,0 +1,26 @@
+{
+    "test_contact": {
+        "surname": "Андреев",
+        "name": "Андрей",
+        "patronymic": "Иванович",
+        "organization": "NotEffectiveMobile",
+        "work phone": "8(800)555-35-35",
+        "personal phone": "8(800)666-36-36"
+    },
+    " ": {
+        "surname": "Иванов",
+        "name": "Иван",
+        "patronymic": "Петрович",
+        "organization": "NotTestOrg",
+        "work phone": "8(800)777-77-77",
+        "personal phone": "8(800)888-88-88"
+    },
+    "Иван Иванов": {
+        "surname": "Иванов",
+        "name": "Иван",
+        "patronymic": "Петрович",
+        "organization": "123123123",
+        "work phone": "8(800)777-77-77",
+        "personal phone": "8(800)888-88-88"
+    }
+}
